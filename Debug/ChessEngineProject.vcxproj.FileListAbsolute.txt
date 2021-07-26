@@ -1,1 +1,2 @@
 C:\Users\peter\source\repos\ChessEngineProject\Debug\ChessEngineProject.exe
+C:\Users\peter\Documents\GitHub\ChessEngineProject\Debug\ChessEngineProject.exe

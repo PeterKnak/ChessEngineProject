@@ -28,14 +28,12 @@ array<int, 16> SqAttacked(const int sq, const int side, const S_BOARD* pos) {
 		if (pos->pieces[sq - 11] == wP || pos->pieces[sq - 9] == wP) {
 			attackers[attackerCount] = wP;
 			attackerCount++;
-			cout << attackers[attackerCount-1] << endl;
 		}
 	}
 	else {
 		if (pos->pieces[sq + 11] == bP || pos->pieces[sq + 9] == bP) {
 			attackers[attackerCount] = bP;
 			attackerCount++;
-			cout << attackers[attackerCount - 1] << endl;
 		}
 	}
 
@@ -45,7 +43,6 @@ array<int, 16> SqAttacked(const int sq, const int side, const S_BOARD* pos) {
 		if (IsKn(pce) && PieceCol[pce] == side) {
 			attackers[attackerCount] =bN;
 			attackerCount++;
-			cout << attackers[attackerCount - 1] << endl;
 		}
 	}
 
@@ -60,12 +57,10 @@ array<int, 16> SqAttacked(const int sq, const int side, const S_BOARD* pos) {
 					if (!PieceCol[pce]) { // if a white piece
 						attackers[attackerCount] = IsBQ(pce) ? wQ : wR; // can it move like a bishop as well?
 						attackerCount++;
-						cout << attackers[attackerCount - 1] << endl;
 					}
 					else {
 						attackers[attackerCount] = IsBQ(pce) ? bQ : bR; 
 						attackerCount++;
-						cout << attackers[attackerCount - 1] << endl;
 					}
 				}
 				break;
@@ -86,12 +81,10 @@ array<int, 16> SqAttacked(const int sq, const int side, const S_BOARD* pos) {
 					if (!PieceCol[pce]) { // if a white piece
 						attackers[attackerCount] = IsRQ(pce) ? wQ : wB; // can it move like a rook as well?
 						attackerCount++;
-						cout << attackers[attackerCount - 1] << endl;
 					}
 					else {
 						attackers[attackerCount] = IsRQ(pce) ? bQ : bB;
 						attackerCount++;
-						cout << attackers[attackerCount - 1] << endl;
 					}
 				}
 				break;
@@ -107,7 +100,6 @@ array<int, 16> SqAttacked(const int sq, const int side, const S_BOARD* pos) {
 		if (IsKi(pce) && PieceCol[pce] == side) {
 			attackers[attackerCount] = PieceCol[pce] ? bK : wK;
 			attackerCount++;
-			cout << attackers[attackerCount - 1] << endl;
 		}
 	}
 
