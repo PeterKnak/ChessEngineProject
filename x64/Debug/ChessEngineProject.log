@@ -1,0 +1,12 @@
+﻿  attack.cpp
+  Bitboards.cpp
+  Board.cpp
+C:\Users\peter\source\repos\ChessEngineProject\Board.cpp(46,27): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\peter\source\repos\ChessEngineProject\Board.cpp(47,27): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\peter\source\repos\ChessEngineProject\Board.cpp(48,27): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  ChessEngineProject.cpp
+C:\Users\peter\source\repos\ChessEngineProject\ChessEngineProject.cpp(95,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  hashkeys.cpp
+  init.cpp
+  Generating Code...
+  ChessEngineProject.vcxproj -> C:\Users\peter\source\repos\ChessEngineProject\x64\Debug\ChessEngineProject.exe

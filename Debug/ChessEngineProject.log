@@ -1,0 +1,3 @@
+﻿  ChessEngineProject.cpp
+C:\Users\peter\source\repos\ChessEngineProject\ChessEngineProject.cpp(95,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ChessEngineProject.vcxproj -> C:\Users\peter\source\repos\ChessEngineProject\Debug\ChessEngineProject.exe
