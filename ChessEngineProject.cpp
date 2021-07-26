@@ -62,6 +62,10 @@ void PieceAttacked(const int file, const int rank, const S_BOARD* pos) {
 	if (i == 0) {
 		cout << "The " << pieceName << " on square " << fileLetter << rankNumber << " is not attacked.";
 	}
+
+	int wait;
+	cin >> wait;
+	std::cin.ignore(); // make program wait.
 	
 }
 
@@ -78,6 +82,10 @@ void AnalysePos() {
 	if (materialImbalance == 0) {
 		cout << "Material is equal";
 	}
+
+	int wait;
+	cin >> wait;
+	std::cin.ignore(); // make program wait.
 
 }
 
